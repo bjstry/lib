@@ -1,0 +1,25 @@
+~/.vimrc
+set nocompatible
+set number
+set autoindent
+set smartindent
+set showmatch
+set ruler
+set incsearch
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set nobackup
+set clipboard+=unnamed
+syntax on
+
+~/.screenrc
+startup_message off
+defscrollback 1024
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rY}%n %t%{-}%+w %=%{..G} %H(%l) %{..Y} %Y/%m/%d %c:%s "
+#vbell off
+
+~/.bashrc
+alias cdw='cd /var/www/html'
